@@ -8,4 +8,12 @@ public class DragonHead {
         this.size = size;
         this.toothCount = toothCount;
     }
+
+    public float getSize() {
+        return size;
+    }
+
+    public float getToothCount() {
+        return toothCount;
+    }
 }
