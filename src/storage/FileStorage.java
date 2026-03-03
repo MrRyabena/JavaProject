@@ -4,6 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import dragon.Dragon;
+import dragon.DragonHead;
+import dragon.DragonType;
+import core.Coordinates;
 
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
