@@ -5,9 +5,7 @@ import java.io.IOException;
 import java.util.HashSet;
 
 public interface Storage {
-    void save(HashSet<Dragon> collection) throws IOException;
+    void save(collection.Collection collection) throws IOException;
 
-    HashSet<Dragon> load() throws IOException;
-
-    void update(HashSet<Dragon> collection) throws IOException;
+    collection.Collection load() throws IOException;
 }
